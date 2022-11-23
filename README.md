@@ -25,13 +25,15 @@ Once the best patterb is found, the extent of that pattern is computed BUT w.r.t
 Once the unique positive and negative samples added by the current best best are identified, it remains to apply the update step to the dataset. To update the dataset, the extent of the current rule is calculated w.r.t the current shape of the dataset, the covered samples are dropped from the dataset to produce a new shaped dataset. The process is repeated until all positive samples make up the current label are covered.
   
 ### More Constraints
+<p align="justify">
 Since the end goal is to create a classifier with the resulting pattern-sets, the concept of generalization must be taken into account. Therefore, some constraints are taken into account after the creation of the pattern-set. First, if there is a rule ∈ the pattern-set that adds only one unique positive sample to the pattern-set, then that pattern will be dropped. Second, if the pattern covers more negatives than positives, then this rule is omitted. Finally, if the number of covered positives equals the negative samples covered, the pattern is also omitted.
   
+## An Example for the pattern-sets found, one for each class for "IRIS" dataset:
 
+<p align="center">
+<img width="800" height="300" src="https://github.com/MSc-MGomaa/Separate-and-Conquer-algorithm-for-pattern-set-composition/blob/5c2ff6b9b227bc30ba79f9c4d27a79fe1907b4ab/result2.png">
   
-  
-
-  
+From the results in the graph above, we can see that each class is represented with a set of patterns, NOT just single patterns as we did in [Link](https://github.com/MSc-MGomaa/MCTS-For-Rule-learning). Each set of patterns cover the sample space whcih represent each class, which we will use later to retrive a classifier.
 
 
 
