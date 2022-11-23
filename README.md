@@ -8,7 +8,7 @@ When using Monte-Carlo Tree Search algorithm to explore the search space, it wil
 S&Q consists of two main stages, first, with a certain group of rules, find the pattern that best describes the current shape of the given dataset, while in the second stage (update stage), the samples covered by the pattern found are deleted from the dataset to create a new shaped one. In our implementation of the first stage of the S&Q, the goal was not only to find the rule that best describes the dataset, but also to know how much this rule contributes to the resulting pattern-set, and this can be achieved by knowing how many unique positive and negative samples each rule contributes to the composition of the pattern-set.
 
 <p align="center">
-<img width="800" height="450" src="https://github.com/MSc-MGomaa/Separate-and-Conquer-algorithm-for-pattern-set-composition./blob/98f5cbc01907b3c0aee1483fb479911b6721b3cc/SQ.png">
+<img width="800" height="450" src="https://github.com/MSc-MGomaa/Separate-and-Conquer-algorithm-for-pattern-set-composition/blob/87ab7db5004623f482f585a82600503f051c54b4/SQ.png">
 
 ### Finding the best pattern
 <p align="justify">
