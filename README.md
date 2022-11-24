@@ -34,7 +34,7 @@ Since the end goal is to create a classifier with the resulting pattern-sets, th
 <img width="800" height="300" src="https://github.com/MSc-MGomaa/Separate-and-Conquer-algorithm-for-pattern-set-composition/blob/5c2ff6b9b227bc30ba79f9c4d27a79fe1907b4ab/result2.png">
   
 From the results in the graph above, we can see that each class is represented with a set of patterns, NOT just single patterns as we did in [Link](https://github.com/MSc-MGomaa/MCTS-For-Rule-learning). Each set of patterns cover the sample space whcih represent each class, which we will use later to retrive a classifier.
-2
+3
 
 
 
